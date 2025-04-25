@@ -1,0 +1,12 @@
+[project]
+name = "langgraph-pydantic-claimbot"
+version = "0.1.0"
+description = "A Streamlit LLM Agent app for generating claims using LangGraph and Pydantic."
+readme = "README.md"
+requires-python = "3.12.7"
+dependencies = [
+    "langchain-openai>=0.3.14",
+    "langgraph>=0.3.33",
+    "pydantic-ai>=0.1.4",
+    "streamlit>=1.44.1",
+]
